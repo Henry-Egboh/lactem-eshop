@@ -95,6 +95,11 @@ input[type="searchbox"] {
     padding: 1rem;
     width: 100%;
 }
+
+input[type="searchbox"]:focus {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
 /* placeholder style */
 input[type="searchbox"]::placeholder {
     padding-left: 4rem;
@@ -200,6 +205,7 @@ input[type="searchbox"]::placeholder {
 /* product images  */
 .img_carousel {
     width: 50%;
+    margin: 10% 0%;
 }
 
 /* p tags for name and price */
