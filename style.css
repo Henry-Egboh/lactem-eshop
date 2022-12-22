@@ -38,6 +38,15 @@ body {
     padding-left: 3%;
 }
 
+.head a {
+    text-decoration: none;
+    color: #171d1c;
+}
+
+.head a:hover {
+    opacity: 0.8;
+}
+
 /* main navbar */
 .navbar {
     display: flex;
@@ -241,7 +250,7 @@ input[type="searchbox"]::placeholder {
     background-color: #cdc;
     padding: 4rem;
     column-gap: 4rem;
-    margin: 2rem 0rem;
+    margin: 4rem 0rem;
 }
 
 /* txt container */
@@ -293,7 +302,52 @@ input[type="searchbox"]::placeholder {
     width: 100%;
 }
 
+/* ===================================================================================
+================================ FOOTER ===================================== */
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d0707;
+    padding: 6rem 4rem;
+    color: #dcdcdc;
+}
+
+/* footer header */
+.base h3 {
+    padding-bottom: 1rem;
+}
+
+.social_icon .fa {
+    padding-right: 0.8rem;
+}
+
+/* BASE 1 a tags */
+.footer .head {
+    padding: 0rem 0rem 0.5rem;
+
+}
+.footer .head a {
+    color: #dcdcdc;
+}
+
+/* footer list items */
+.base ul {
+    list-style: none;
+}
+
+.base ul li {
+    padding: 0.2rem;
+}
+
+.base ul li a {
+   text-decoration: none;
+   color: #dcdcdc;
+}
 
 
 
