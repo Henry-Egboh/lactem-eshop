@@ -82,6 +82,10 @@ body {
     align-items: center;
     padding-right: 3%;
 }
+
+.icon a {
+    text-decoration: none;
+}
 /*navbar social icons */
 .social {
     width: 0.8rem;
@@ -208,14 +212,14 @@ input[type="searchbox"]::placeholder {
     gap: 1rem;
 }
 /* image container */
-.img_div {
-    background-color: rgba(157, 161, 157, 0.2);
-    /* background-color: #dcdcdc; */
+/* .img_div {
+     background-color: rgba(157, 161, 157, 0.2); 
+    background-color: #dcdcdc; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} */
 
 /* ===========================================================================
 ========================== ALL HOVER EFFECTS ================================== */
@@ -223,14 +227,14 @@ input[type="searchbox"]::placeholder {
 .img_div:hover, .txt a:hover, .sec1_2 a:hover, .nav ul li a:hover,
 .navbar ul li a:hover {
     opacity: 0.6;
-    transform: scale(0.9);
+    transform: scale(0.98);
     transition: all 500ms ease-in;
 } 
 
 /* product images  */
 .img_carousel {
-    width: 50%;
-    margin: 10% 0%;
+    width: 100%;
+    /* margin: 10% 0%; */
 }
 
 /* p tags for name and price */
@@ -313,7 +317,7 @@ input[type="searchbox"]::placeholder {
     align-items: center;
     justify-content: center;
     background-color: #0d0707;
-    padding: 6rem 4rem;
+    padding: 10rem 4rem;
     color: #dcdcdc;
 }
 
@@ -324,6 +328,11 @@ input[type="searchbox"]::placeholder {
 
 .social_icon .fa {
     padding-right: 0.8rem;
+}
+
+.social_icon a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* BASE 1 a tags */
